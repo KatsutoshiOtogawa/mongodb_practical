@@ -14,7 +14,10 @@ db.createUser(
         db: "APP_TEST"
       }
     ]
-  },
+  }
+)
+
+db.createUser(
   {
     user: "APP_DEVELOPMENT",
     pwd: "password",
@@ -25,7 +28,10 @@ db.createUser(
         db: "APP_DEVELOPMENT"
       }
     ]
-  },
+  }
+)
+
+db.createUser(
   {
     user: "APP_PRODUCTION",
     pwd: "password",
