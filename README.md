@@ -89,3 +89,11 @@ sudo sed -i.org 's/^bind_ip = .*$/bind_ip = 0\.0\.0\.0/' /etc/mongodb.conf
 ```
 $ mongo [hostname]/[dbname] -u [username] -p [password]
 ```
+
+## insert data
+mongodb collection is similar with RDBS talbe.
+mongodb doesnt need to create collection.
+collection is created, when collection is inserted the first time.
+```
+db.book.insert( {"name":"Holly Porter"} )
+```
